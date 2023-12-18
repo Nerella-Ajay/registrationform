@@ -1,0 +1,124 @@
+/* Write your CSS code here */
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .registration-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+}
+
+.form-title {
+  font-size: 48px;
+  font-weight: 500;
+  color: #ea580c;
+}
+
+@media screen and (max-width: 767px) {
+  .form-title {
+    font-size: 36px;
+  }
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 16px;
+  min-height: 310px;
+}
+
+@media screen and (max-width: 767px) {
+  .view-container {
+    flex-shrink: 0;
+    padding: 48px 64px 48px 64px;
+    box-shadow: 0px 4px 16px rgba(126, 133, 142, 0.16);
+    max-width: 450px;
+  }
+}
+
+.fomr-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #475569;
+}
+
+.name-input-field {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  margin-top: 5px;
+  outline: none;
+  padding: 8px 16px 8px 16px;
+}
+
+.success-image {
+  width: 72px;
+}
+
+.submit-button {
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  background-color: #ea580c;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .submit-button {
+    width: 100%;
+  }
+}
+
+.error-field {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  line-height: 16px;
+  font-family: 'Roboto';
+  color: #ff0b37;
+}
